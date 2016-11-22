@@ -258,18 +258,21 @@
     <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Space Shooter\main.cpp">
+    <ClCompile Include="Texture\Texture.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
-    <ClCompile Include="Texture\Texture.cpp">
+    <ClCompile Include="hex_example\main.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="Space Shooter\Bullet.png">
+    <Image Include="hex_example\dg_grounds32_40.png">
       <Filter>Файлы ресурсов</Filter>
     </Image>
-    <Image Include="Space Shooter\Spaceship.png">
+    <Image Include="hex_example\dg_grounds32_73.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="hex_example\dg_grounds32_75.png">
       <Filter>Файлы ресурсов</Filter>
     </Image>
   </ItemGroup>
