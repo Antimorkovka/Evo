@@ -61,7 +61,7 @@ void MainGenLandScape::ValueOfStep(int x1, int x2, int y1, int y2) {
 	length += round(MainGenLandScape::length);
 	double c = 0;
 	c += difference;
-	local = 1.2*((rand()%difference)/c);
+	local = 2.9*pow((rand()%difference)/c,3);
 	if (rand() % 2 == 1) local *= -1;
 	//Max Value Of Height
 	double localHeight = Value(fieldL[x1][y1], fieldL[x2][y2]);
