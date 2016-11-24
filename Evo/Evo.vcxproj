@@ -69,8 +69,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>D:\Programming\Evo\Evo\libs\SDL2-2.0.4\include;D:\Programming\Evo\Evo\libs\SDL2_ttf-2.0.14\include;D:\Programming\Evo\Evo\libs\SDL2_mixer-2.0.1\include;D:\Programming\Evo\Evo\libs\SDL2_image-2.0.1\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\Programming\Evo\Evo\libs\SDL2-2.0.4\lib\x86;D:\Programming\Evo\Evo\libs\SDL2_ttf-2.0.14\lib\x86;D:\Programming\Evo\Evo\libs\SDL2_mixer-2.0.1\lib\x86;D:\Programming\Evo\Evo\libs\SDL2_image-2.0.1\lib\x86;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\user\Source\Repos\Evo\Evo\libs\SDL2_ttf-2.0.14\include;C:\Users\user\Source\Repos\Evo\Evo\libs\SDL2_mixer-2.0.1\include;C:\Users\user\Source\Repos\Evo\Evo\libs\SDL2_image-2.0.1\include;C:\Users\user\Source\Repos\Evo\Evo\libs\SDL2-2.0.4\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\user\Source\Repos\Evo\Evo\libs\SDL2-2.0.4\lib\x86;C:\Users\user\Source\Repos\Evo\Evo\libs\SDL2_ttf-2.0.14\lib\x86;C:\Users\user\Source\Repos\Evo\Evo\libs\SDL2_mixer-2.0.1\lib\x86;C:\Users\user\Source\Repos\Evo\Evo\libs\SDL2_image-2.0.1\lib\x86;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <IncludePath>D:\Programming\Evo\Evo\libs\SDL2_ttf-2.0.14\include;D:\Programming\Evo\Evo\libs\SDL2_mixer-2.0.1\include;D:\Programming\Evo\Evo\libs\SDL2_image-2.0.1\include;D:\Programming\Evo\Evo\libs\SDL2-2.0.4\include;$(IncludePath)</IncludePath>
@@ -213,12 +213,6 @@
     <None Include="libmodplug-1.dll" />
     <None Include="libogg-0.dll" />
     <None Include="libpng16-16.dll" />
-    <None Include="libs\SDL2_image-2.0.1\lib\x86\libjpeg-9.dll" />
-    <None Include="libs\SDL2_image-2.0.1\lib\x86\libpng16-16.dll" />
-    <None Include="libs\SDL2_image-2.0.1\lib\x86\libtiff-5.dll" />
-    <None Include="libs\SDL2_image-2.0.1\lib\x86\libwebp-4.dll" />
-    <None Include="libs\SDL2_image-2.0.1\lib\x86\SDL2_image.dll" />
-    <None Include="libs\SDL2_image-2.0.1\lib\x86\zlib1.dll" />
     <None Include="libtiff-5.dll" />
     <None Include="libvorbis-0.dll" />
     <None Include="libvorbisfile-3.dll" />
@@ -239,16 +233,6 @@
     <Image Include="hex_example\dg_grounds32_40.png" />
     <Image Include="hex_example\dg_grounds32_73.png" />
     <Image Include="hex_example\dg_grounds32_75.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="libs\SDL2_image-2.0.1\lib\x86\LICENSE.jpeg.txt" />
-    <Text Include="libs\SDL2_image-2.0.1\lib\x86\LICENSE.png.txt" />
-    <Text Include="libs\SDL2_image-2.0.1\lib\x86\LICENSE.tiff.txt" />
-    <Text Include="libs\SDL2_image-2.0.1\lib\x86\LICENSE.webp.txt" />
-    <Text Include="libs\SDL2_image-2.0.1\lib\x86\LICENSE.zlib.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <Library Include="libs\SDL2_image-2.0.1\lib\x86\SDL2_image.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
