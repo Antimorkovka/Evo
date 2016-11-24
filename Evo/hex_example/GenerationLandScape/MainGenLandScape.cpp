@@ -1,5 +1,7 @@
 #include "GenHeader.h"
 
-MainGenLandScape::kek() {
+int MainGenLandScape::StartGeneretionLandscape() {
 
+
+	return 0;
 }

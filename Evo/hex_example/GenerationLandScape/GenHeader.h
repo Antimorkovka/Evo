@@ -3,6 +3,7 @@
 #include <vector>;
 class MainGenLandScape {
 public:
+	int StartGeneretionLandscape();
 	MainGenLandScape(int length, int width, int settingOfHeight, int settingOfHumidity) {
 		this->length = length;
 		this->width = width;
@@ -10,8 +11,8 @@ public:
 		this->settingOfHumidity = settingOfHumidity;
 		field = new std::vector <std::vector <int>> (length, std::vector<int>(width, 0));
 	}
-	int kek();
-private:
+	
+protected:
 	int length;
 	int width;
 	int settingOfHeight;
