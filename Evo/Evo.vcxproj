@@ -204,6 +204,7 @@
     <ClInclude Include="libs\SDL2_mixer-2.0.1\include\SDL_mixer.h" />
     <ClInclude Include="libs\SDL2_ttf-2.0.14\include\SDL_ttf.h" />
     <ClInclude Include="Texture\Texture.h" />
+    <ClInclude Include="Texture\TextureManager.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
@@ -234,6 +235,7 @@
     <ClCompile Include="hex_example\GenerationLandScape\MainGenLandScape.cpp" />
     <ClCompile Include="hex_example\main.cpp" />
     <ClCompile Include="Texture\Texture.cpp" />
+    <ClCompile Include="Texture\TextureManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="hex_example\dg_grounds32_40.png" />
