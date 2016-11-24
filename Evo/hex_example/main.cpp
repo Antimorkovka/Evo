@@ -12,6 +12,16 @@ const int hex_height = 166;
 
 int main(int argc, char **argv)
 {
+	/*int seed=0;
+	int heigth;
+	int width;
+	while (seed != -1) {
+		std::cin >> seed >> heigth >> width;
+		MainGenLandScape Start = { seed, heigth, width, 0,0 };
+		Start.StartGeneretionLandscape();
+	}
+	return 0;*/
+
 	SDL_Window* gWindow = SDL_CreateWindow("SDL Tutorial", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN);
 	SDL_Renderer* gRenderer = SDL_CreateRenderer(gWindow, -1, SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC);
 	SDL_Event e;
