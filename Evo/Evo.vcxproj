@@ -76,6 +76,10 @@
     <IncludePath>D:\Programming\Evo\Evo\libs\SDL2_ttf-2.0.14\include;D:\Programming\Evo\Evo\libs\SDL2_mixer-2.0.1\include;D:\Programming\Evo\Evo\libs\SDL2_image-2.0.1\include;D:\Programming\Evo\Evo\libs\SDL2-2.0.4\include;$(IncludePath)</IncludePath>
     <LibraryPath>D:\Programming\Evo\Evo\libs\SDL2_ttf-2.0.14\lib\x86;D:\Programming\Evo\Evo\libs\SDL2_mixer-2.0.1\lib\x86;D:\Programming\Evo\Evo\libs\SDL2_image-2.0.1\lib\x86;D:\Programming\Evo\Evo\libs\SDL2-2.0.4\lib\x86;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>C:\Users\user\Source\Repos\Evo\Evo\libs\SDL2_ttf-2.0.14\include;C:\Users\user\Source\Repos\Evo\Evo\libs\SDL2_mixer-2.0.1\include;C:\Users\user\Source\Repos\Evo\Evo\libs\SDL2_image-2.0.1\include;C:\Users\user\Source\Repos\Evo\Evo\libs\SDL2-2.0.4\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\user\Source\Repos\Evo\Evo\libs\SDL2-2.0.4\lib\x86;C:\Users\user\Source\Repos\Evo\Evo\libs\SDL2_ttf-2.0.14\lib\x86;C:\Users\user\Source\Repos\Evo\Evo\libs\SDL2_mixer-2.0.1\lib\x86;C:\Users\user\Source\Repos\Evo\Evo\libs\SDL2_image-2.0.1\lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -93,6 +97,9 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
     </ClCompile>
+    <Link>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;SDL2_mixer.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -122,6 +129,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="hex_example\GenerationLandScape\GenHeader.h" />
     <ClInclude Include="libs\SDL2-2.0.4\include\begin_code.h" />
     <ClInclude Include="libs\SDL2-2.0.4\include\close_code.h" />
     <ClInclude Include="libs\SDL2-2.0.4\include\SDL.h" />
@@ -217,6 +225,7 @@
     <None Include="zlib1.dll" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="hex_example\GenerationLandScape\MainGenLandScape.cpp" />
     <ClCompile Include="hex_example\main.cpp" />
     <ClCompile Include="Texture\Texture.cpp" />
   </ItemGroup>
