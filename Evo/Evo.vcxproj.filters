@@ -259,6 +259,12 @@
     <None Include="smpeg2.dll" />
     <None Include="zlib1.dll" />
     <None Include="ClassDiagram.cd" />
+    <None Include="libs\SDL2_image-2.0.1\lib\x86\libjpeg-9.dll" />
+    <None Include="libs\SDL2_image-2.0.1\lib\x86\libpng16-16.dll" />
+    <None Include="libs\SDL2_image-2.0.1\lib\x86\libtiff-5.dll" />
+    <None Include="libs\SDL2_image-2.0.1\lib\x86\libwebp-4.dll" />
+    <None Include="libs\SDL2_image-2.0.1\lib\x86\SDL2_image.dll" />
+    <None Include="libs\SDL2_image-2.0.1\lib\x86\zlib1.dll" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Texture\Texture.cpp">
@@ -281,5 +287,15 @@
     <Image Include="hex_example\dg_grounds32_75.png">
       <Filter>Файлы ресурсов</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="libs\SDL2_image-2.0.1\lib\x86\LICENSE.jpeg.txt" />
+    <Text Include="libs\SDL2_image-2.0.1\lib\x86\LICENSE.png.txt" />
+    <Text Include="libs\SDL2_image-2.0.1\lib\x86\LICENSE.tiff.txt" />
+    <Text Include="libs\SDL2_image-2.0.1\lib\x86\LICENSE.webp.txt" />
+    <Text Include="libs\SDL2_image-2.0.1\lib\x86\LICENSE.zlib.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libs\SDL2_image-2.0.1\lib\x86\SDL2_image.lib" />
   </ItemGroup>
 </Project>
